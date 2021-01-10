@@ -2,6 +2,7 @@ defmodule ElixirFeedParser.Parsers.Helper do
   alias ElixirFeedParser.XmlNode
 
   require Logger
+  require Timex
 
   def element(node, selector) do
     node |> XmlNode.find(selector) |> XmlNode.text()
