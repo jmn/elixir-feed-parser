@@ -6,7 +6,7 @@ defmodule ElixirFeedParser.Mixfile do
   def project do
     [
       app: :elixir_feed_parser,
-      version: "2.1.0",
+      version: "2.1.1",
       elixir: "~> 1.4",
       description: description(),
       package: package(),
