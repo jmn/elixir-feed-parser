@@ -18,7 +18,7 @@ defmodule ElixirFeedParser.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :xmerl, :tzdata]]
+    [extra_applications: [:logger, :xmerl, :tzdata]]
   end
 
   defp deps do
