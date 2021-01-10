@@ -23,7 +23,7 @@ defmodule ElixirFeedParser.Mixfile do
 
   defp deps do
     [
-      {:timex, "~> 3.4"},
+      {:timex, "~> 3.6"},
       {:ex_doc, "~> 0.19", only: :dev},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
